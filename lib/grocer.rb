@@ -9,7 +9,7 @@ def consolidate_cart(cart)
   cart.each do |index|
     if find_item_by_name_in_collection(index[:item], new_cart) == nil
       new_cart.push(index)
-    else 
-      
+    else
+
   end
 end
