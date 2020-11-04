@@ -13,6 +13,7 @@ def consolidate_cart(cart)
       index[:count] = 1
       new_cart.push(index)
     else
+      binding.pry
       new_cart[index][:count] += 1
     end
   end
