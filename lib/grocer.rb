@@ -12,5 +12,6 @@ def consolidate_cart(cart)
       new_cart[index][:count] = 1
     else
       new_cart[index][:count] += 1
+    end
   end
 end
